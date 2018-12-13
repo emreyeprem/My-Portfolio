@@ -39,8 +39,7 @@
 				<div class="hero-slides owl-carousel owl-theme">
 					<div class="slide"><img class="img-as-bg" src="img/1.jpg" alt="" ></div>
 					<div class="slide"><img class="img-as-bg" src="https://images.idgesg.net/images/article/2018/08/gettyimages-1012716694-100768243-large.jpg" alt="" ></div>
-					<div class="slide"><img class="img-as-bg" src="img/2.jpg" alt="" ></div>
-					<div class="slide"><img class="img-as-bg" src="img/5.jpg" alt="" ></div>
+					<div class="slide"><img class="img-as-bg" src="https://user-images.githubusercontent.com/412784/36250697-7b3691ee-1236-11e8-8812-d2a43d2212bf.gif" alt="" ></div>
 
 				</div>
 				<svg class="hero-triangles" viewBox="0 0 263.07 394.61" preserveAspectRatio="xMinYMax meet">
@@ -73,7 +72,7 @@
 							<li><a target="_blank" href="https://www.linkedin.com/in/emre-akurek-28b73b141/"><span class="icon-linkedin"></span></a></li>
 							<!-- <li><a href="#"><span class="icon-dribbble"></span></a></li> -->
 						</ul>
-						<a href="img/resume.pdf" class="btn" download>Download Resume</a>
+						<a href="img/Resume" class="btn" download>Download Resume</a>
 					</div>
 				</div>
 			</section>
@@ -82,7 +81,7 @@
 
 				<div class="">
 					<div class="">
-						<img class="" src="img/profile.png" alt="" style="margin-left:220px; margin-top: 160px; transform:scale(1.5) !important;border-radius:80%">
+						<img class="" id="profileImg" src="img/profile.png" alt="" style="margin-left:220px; margin-top: 160px; transform:scale(1.5) !important;border-radius:80%">
 					</div>
 				</div>
 				<div class="details" style="margin-left:150px;">
@@ -91,10 +90,10 @@
 							<span class="field-title">Name</span>
 							<span class="field-content">Emre Akurek</span>
 						</li>
-						<li>
+						<!-- <li>
 							<span class="field-title">Birthday</span>
 							<span class="field-content">March 14, 1983</span>
-						</li>
+						</li> -->
 						<li>
 							<span class="field-title">Email</span>
 							<span class="field-content"><a href="mailto:emreyeprem@gmail.com">emreyeprem@gmail.com</a></span>
@@ -110,7 +109,7 @@
 					</ul>
 					<div class="intro">
 
-						<p style="color:black; font-family: 'Comfortaa', cursive;">	I'm a Full Stack Software Developer living in Houston, TX. After many years of teaching mathematics in public schools, I felt I needed a new exciting challange which I decided full stack development is perfect fit for me as a next challenge. I knew <br /> I wanted to explore my interests in computing and organizing information. I fell into coding and haven't looked back! <br /> I do love to find unique ways to solve problems by coding that makes impact!</p>
+						<p style="color:black; font-family: 'Comfortaa', cursive;">	I'm a Full Stack Software Developer living in Houston, TX. After many years of teaching mathematics in public schools, I felt I needed a new exciting challenge which I decided full stack development is perfect fit for me as a next challenge. I knew <br /> I wanted to explore my interests in computing and organizing information. I fell into coding and haven't looked back! <br /> I do love to find unique ways to solve problems by coding that makes impact!</p>
 					</div>
 				</div>
 			</section>
@@ -173,7 +172,7 @@
 							<h4>Selcuk University</h4>
 							<div class="date">Aug 2002 - Aug 2007</div>
 						</div>
-						<p>Chemistry<br>GPA: 2.54</p>
+						<p>Chemistry</p>
 					</li>
 				</ul>
 			</section>
@@ -226,6 +225,7 @@
 							<li style="margin-bottom:3px;">PostreSQL</li>
 							<li style="margin-bottom:3px;">Mustache</li>
 							<li style="margin-bottom:3px;">Express.js</li>
+							<li style="margin-bottom:3px;">Firebase</li>
 							<li>Sequelize (ORM)</li>
 						</ul>
 
@@ -264,35 +264,40 @@
 					</div>
 				</div>
 				<div class="grid animation-chain" data-animation="zoomIn">
-					<!-- <div class="grid-item document-design">
-						<img src="img/placeholders/s1.png" alt="">
-						<a class="portfolio-open-modal" href="#"><span class="lnr lnr-magnifier"></span></a>
-						<a class="portfolio-external-link" href="http://www.google.com" target="_blank"><span class="lnr lnr-link"></span></a>
+
+
+					<div class="grid-item document-design web-design">
+						<img src="img/library.png" alt="">
+						<a class="portfolio-open-modal"  href="#"><span class="lnr lnr-magnifier"></span></a>
+						<a class="portfolio-external-link" target="_blank" href="https://github.com/emreyeprem/MyBookLibraryApp"><img style="margin-bottom:3px;transform:scale(1.1);vertical-align:unset;" src="img/github.png"/></a>
+						<!-- <a class="portfolio-external-link" href="https://github.com/emreyeprem/Pool-Table-Management-Site" target="_blank"><span class="lnr lnr-link"></span></a> -->
 						<div class="portfolio-hidden">
-							<ul class="image-list">
-								<li><img src="img/blank.png" data-src="img/placeholders/s1.png" alt=""></li>
-								<li><img src="img/blank.png" data-src="img/placeholders/s4.png" alt=""></li>
-								<li><img src="img/blank.png" data-src="img/placeholders/s8.png" alt=""></li>
+							<ul class="video">
+								<iframe width="560" height="315" data-src="https://www.youtube.com/embed/ZGCsXlrN6fs?start=00" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</ul>
 							<ul class="portfolio-info">
 								<li>
-									<h3>Project</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+									<h3>My Book Library</h3>
+									<p>This app was created to help users to organize and keep track of their books libraries in an online and permanent platform.</p>
 								</li>
 								<li>
-									<h3>Client</h3>
-									<p>ABC Company</p>
+									<h3>How to use:</h3>
+									<p>Users must create a login in order to see his/her dashboard. After signing up, the user has the option to add a book entering book title, author, published date and book image url. After adding the book, user can see it on his/her dashboard and create a book info card, user will be given options to edit and to delete the book.</p>
 								</li>
 								<li>
 									<h3>Skills</h3>
-									<p>Visual design, user research</p>
+									<p>HTML,CSS,Bootstrap,JavaScript
+                     <h3>Project Intro Video ---></h3>
+									</p>
 								</li>
 								<li>
-									<a href="http://www.google.com" class="btn" target="_blank">Visit Website</a>
+									<a href="http://pooltable.surge.sh/" class="btn" target="_blank">Visit Website</a>
 								</li>
 							</ul>
 						</div>
-					</div> -->
+					</div>
+
+
 					<div class="grid-item document-design">
 						<img src="img/pooltablescreen.png" alt="">
 						<a class="portfolio-open-modal"  href="#"><span class="lnr lnr-magnifier"></span></a>
@@ -304,9 +309,9 @@
 							</ul>
 							<ul class="portfolio-info">
 								<li>
-									<h3>Project</h3>
+									<h3>Pool Table Management</h3>
 									<p>
-The app provides an admin interface with 12 pool tables representations including buttons to assign and close tables. The reliability of management is provided by utilizing alert system.</p>
+                  The app provides an admin interface with 12 pool tables representations including buttons to assign and close tables.</p>
 								</li>
 								<li>
 									<h3>How to use:</h3>
@@ -314,7 +319,7 @@ The app provides an admin interface with 12 pool tables representations includin
 								</li>
 								<li>
 									<h3>Skills</h3>
-									<p>HTML,CSS,Bootstrap,JavaScript</p>
+									<p>HTML, CSS, Bootstrap, JavaScript</p>
 								</li>
 								<li>
 									<a href="http://pooltable.surge.sh/" class="btn" target="_blank">Visit Website</a>
@@ -322,6 +327,7 @@ The app provides an admin interface with 12 pool tables representations includin
 							</ul>
 						</div>
 					</div>
+
 					<div class="grid-item web-design">
 						<img src="img/beapscreen.png" alt="">
 						<a class="portfolio-open-modal" href="#"><span class="lnr lnr-magnifier"></span></a>
@@ -333,16 +339,19 @@ The app provides an admin interface with 12 pool tables representations includin
 							</ul>
 							<ul class="portfolio-info">
 								<li>
-									<h3>Project</h3>
+									<h3>BEAP Article Blog</h3>
 									<p>This app is ceated to encourage users to explore different ideas as well as their own ideas and finding a platform to share them publicly.</p>
 								</li>
 								<li>
 									<h3>How to use:</h3>
-									<p>Users must create a login in order to contribute to the web application. After signing up, the user has the option to create an article, view their previous articles and view the most recent articles of the web application.</p>
+									<p>Users must create a login in order to contribute to the web application. After signing up, the user has the option to create an article, view their previous articles and view the most recent articles of the web application. </p>
+
 								</li>
 								<li>
 									<h3>Skills</h3>
-									<p>HTML,CSS,Bootstrap,JavaScript,Firebase</p>
+									<p>HTML,CSS,Bootstrap,JavaScript,Firebase
+									<h3>Project Intro Video ---></h3>
+								  </p>
 								</li>
 								<li>
 									<a href="http://beap.surge.sh/" class="btn" target="_blank">Visit Website</a>
@@ -361,7 +370,7 @@ The app provides an admin interface with 12 pool tables representations includin
 							</ul>
 							<ul class="portfolio-info">
 								<li>
-									<h3>Project</h3>
+									<h3>Shopping List App</h3>
 									<p> This app is ceated to offer users to keep track of their shopping lists based on the store and item names.</p>
 								</li>
 								<li>
@@ -370,7 +379,9 @@ The app provides an admin interface with 12 pool tables representations includin
 								</li>
 								<li>
 									<h3>Skills</h3>
-									<p>HTML,CSS,Bootstrap,JavaScript, Node.js, Mustache,PostgresQL,Express.js</p>
+									<p>HTML,CSS,Bootstrap,JavaScript, Node.js, Mustache,PostgresQL,Express.js
+                  <h3>Project Intro Video ---></h3>
+									</p>
 								</li>
 								<li>
 									<a href="https://shoppinglistcart.herokuapp.com/login" class="btn" target="_blank">Visit Website</a>
@@ -390,16 +401,18 @@ The app provides an admin interface with 12 pool tables representations includin
 								</ul>
 								<ul class="portfolio-info">
 									<li>
-										<h3>Project</h3>
+										<h3>Houston Lakes Water-Levels</h3>
 										<p> This app is ceated to show recent data about the flood gauge levels for Lake Houston and Buffalo Bayou, bodies of water that created some of the largest flooding problems during Hurriane Harvey.</p>
 									</li>
 									<li>
 										<h3>How to use:</h3>
-										<p>The y-axis marks the height in feet, and the x-axis marks the time up to present. The point of Hurricane Harvey's max gauge level is displayed for each body of water, which was used to decide the upper-range of y values and give the user a point of reference.</p>
+										<p>The y-axis marks the height in feet, and the x-axis marks the time up to present.</p>
 									</li>
 									<li>
 										<h3>Skills</h3>
-										<p>HTML,CSS,Bootstrap,JavaScript, Node.js, Mustache,PostgresQL,Express.js</p>
+										<p>HTML,CSS,Bootstrap,JavaScript, Node.js, Mustache,PostgresQL,Express.js
+                    <h3>Project Intro Video ---></h3>
+										</p>
 									</li>
 									<li>
 										<a href="http://houston-water-levels.herokuapp.com" class="btn" target="_blank">Visit Website</a>
@@ -513,6 +526,25 @@ The app provides an admin interface with 12 pool tables representations includin
 							</div>
 						</div>
 					</div>
+
+					<div class="testimonial flex-responsive">
+						<div class="quote bgPrimaryColor">
+							<blockquote>
+								Working with Emre was never a hassle. He would go above and beyond what was expected of him, and was a very independent learner. If he ever encountered something he was unable to solve, he made sure he understood what went wrong and how he could improve in the future.
+
+							</blockquote>
+						</div>
+						<div class="person bgLightGray">
+							<div class="profile-pic">
+								<img src="img/stephen.png" alt="" class="profile-pic">
+							</div>
+							<div class="info">
+								<p class="name">Stephen Roberts</p>
+								<p class="organization">Software Engineer</p>
+							</div>
+						</div>
+					</div>
+
 					<div class="testimonial flex-responsive">
 						<div class="quote bgPrimaryColor">
 							<blockquote>
@@ -532,16 +564,16 @@ The app provides an admin interface with 12 pool tables representations includin
 					<div class="testimonial flex-responsive">
 						<div class="quote bgPrimaryColor">
 							<blockquote>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus assumenda culpa, aliquam dolore quos, explicabo eos id alias nihil! Esse, labore voluptatem sunt nisi a blanditiis aperiam veritatis voluptas animi.
+								Emre has shown time and again that hard work and perseverance are the key recipes of becoming a successful software developer.
 							</blockquote>
 						</div>
 						<div class="person bgLightGray">
 							<div class="profile-pic">
-								<img src="img/placeholders/160x160.png" alt="" class="profile-pic">
+								<img src="img/azamprofile.png" alt="" class="profile-pic">
 							</div>
 							<div class="info">
-								<p class="name">Danny Rose</p>
-								<p class="organization">Incredible Design</p>
+								<p class="name">Azam Sharp</p>
+								<p class="organization">Lead iOS Developer & Instructor </p>
 							</div>
 						</div>
 					</div>
@@ -585,7 +617,7 @@ The app provides an admin interface with 12 pool tables representations includin
 								<span class="lnr lnr-keyboard"></span>
 								<!-- Below: example of using image instead of icon font -->
 								<!-- <img src="path/to/image.svg" alt=""> -->
-								<img style="border-radius:50%;transform:scale(1.32);height:100px;width:100px;margin-top:10px;" src="https://scotch-res.cloudinary.com/image/upload/dpr_3,w_350,q_auto:good,f_auto/media/1/nrMHOlRR6imGBoKkDZLJ_getting-started-with-node-express-postgres-sequelize.png.jpg" alt="">
+								<img style="border-radius:50%;transform:scale(1.32);height:100px;width:100px;margin-top:10px;" src="https://i.ytimg.com/vi/RA7Du-cj1DA/maxresdefault.jpg" alt="">
 							</div>
 							<a href="https://medium.com/@emreyeprem/create-your-node-app-with-express-and-sequelize-717dcbfeca09" target="_blank"><h3>Build a Node app using Sequelize</h3></a>
 							<p>A template engine enables you to use static template files in your application. At runtime, the template engine replaces variables in a template file with actual values...</p>
@@ -669,7 +701,7 @@ The app provides an admin interface with 12 pool tables representations includin
 								<p>Houston, Texas, 77477</p>
 							</div>
 							<div class="col-md-4">
-								<div class="icon"><span class="lnr lnr-smartphone"></span></div>
+								<!-- <div class="icon"><span class="lnr lnr-smartphone"></span></div> -->
 								<!-- <h3>Telephone</h3>
 								<p>(852) 1234-5678</p> -->
 							</div>
@@ -679,7 +711,7 @@ The app provides an admin interface with 12 pool tables representations includin
 								<p><a href="mailto:emreyeprem@gmail.com">emreyeprem@gmail.com</a></p>
 							</div>
 						</div>
-						<form method="post" action="php/contact.php" name="contact-form" id="contact-form">
+						<form method="post" action="https://formspree.io/emreyeprem@gmail.com" name="contact-form" id="contact-form">
 							<ul>
 								<li>
 									<input type="text" id="contact-form-name" name="contact-form-name" >
@@ -712,12 +744,12 @@ The app provides an admin interface with 12 pool tables representations includin
 						<li><a href="#"><i class="fas fa-home"></i></a></li>
 						<!-- <li><a href="#"><span class="icon-envelope"></span></a></li> -->
 						<!-- <li><a href="#"><span class="icon-facebook"></span></a></li> -->
-						<li><a target="_blank" href="https://github.com/emreyeprem"><img style="margin-top:5px;transform:scale(1.1);vertical-align:unset;" src="img/github.png"/></a></li>
+						<li><a target="_blank" href="https://github.com/emreyeprem"><img style="margin-top:5px;transform:scale(0.9);vertical-align:unset;" src="img/github.png"/></a></li>
 						<!-- <li><a href="#"><span class="icon-twitter"></span></a></li>
 						<li><a href="#"><span class="icon-linkedin"></span></a></li> -->
 						<li><a target="_blank" href="https://twitter.com/AkurekEmre"><span class="icon-twitter"></span></a></li>
 						<li><a target="_blank" href="https://www.linkedin.com/in/emre-akurek-28b73b141/"><span class="icon-linkedin"></span></a></li>
-						<li><a target="_blank" href="https://medium.com/@emreyeprem"><img style="margin-bottom:10px;transform:scale(0.85);vertical-align:middle;" src="img/medium.png"/></a></li>
+						<li><a target="_blank" href="https://medium.com/@emreyeprem"><img class="iconmedium" style="margin-bottom:10px;transform:scale(0.75);vertical-align:middle;" src="img/medium.png"/></a></li>
 						<!-- <li><a href="#"><span class="icon-dribbble"></span></a></li> -->
 					</ul>
 				</div>
